@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="forms">
+        <h1>Cadastro</h1>
+        <form class="principal" action="" method="get">
+            <label for="GET-name">Seu nome:</label>
+            <input id="GET-name" type="text" name="name" placeholder="Digite seu nome" required>
+            <input type="submit" value="Save">    
+        </form>
+    
+        <form action="" method="post">
+            <label for="POST-name">Seu e-mail:</label>
+            <input class="caixa-texto" id="POST-name" type="text" name="e-mail" placeholder="Digite seu e-mail" required>
+            <input type="submit" value="Save">
+        </form>
+    
+        <form action="" method="post">
+            <label for="senha-login">Seu Senha:</label>
+            <label id="senha-login" name="senha-login" required="required"></label>
+            <input type="password" placeholder="1234">
+        </form>
+    
+        <span>Deseja receber nossas novidades</span>
+        <input type="radio" name="novidades" id="sim" value="sim" checked>
+        <label for="sim">Sim</label>
+        <input type="radio" name="novidades" id="nao" value="nao">
+        <label for="nao">Não</label>  
+
+        <div class="field">
+            <label for="mensagem">Sua mensagem:</label>
+            <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+        </div>
+
+        <form action="" method="post">
+            <fieldset>
+            <legend>Concorda com os termos?</legend>
+            <input type="radio" name="radio" id="radio"> <label for="radio">Click aqui</label>
+            </fieldset>
+        </form>
+    </div>  
+</body>
+</html>
